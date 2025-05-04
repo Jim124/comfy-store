@@ -26,7 +26,7 @@ const Navbar = () => {
   }, [theme]);
   return (
     <nav className='bg-base-200'>
-      <div className='navbar align-element'>
+      <div className='flex items-center align-element h-[4rem]'>
         <div className='navbar-start'>
           {/* title */}
           <NavLink
@@ -66,7 +66,7 @@ const Navbar = () => {
           <NavLink to='/cart' className='btn btn-ghost btn-circle btn-md ml-4'>
             <div className='indicator'>
               <BsCart3 className='h-6 w-6' />
-              <span className='badge badge-sm badge-primary indicator-item'>
+              <span className='badge badge-sm badge-primary indicator-item pt-2'>
                 8
               </span>
             </div>
